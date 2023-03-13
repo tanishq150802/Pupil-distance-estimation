@@ -11,6 +11,8 @@ By : [Tanishq Selot](https://github.com/tanishq150802)
 * OpenCV
 * imutils
 
+All the code is contained within **pupil_detect.ipynb**. Image examples can be seen in the folders (each one has its own README.md).
+
 ### Steps
 
 * The card on forehead is detected using HSV and Adaptive thresholding.
