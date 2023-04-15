@@ -13,6 +13,14 @@ By : [Tanishq Selot](https://github.com/tanishq150802)
 
 All the code is contained within **pupil_detect.ipynb**. Image examples can be seen in the folders (each one has its own README.md).
 
+### Webcam Flow **cam.py**
+
+* When the code runs, webcam starts.
+* User can adjust his/her face at the center and press **space** to capture the image.
+* Captured image is displayed, press **esc** to calculate PD.
+* PD line is drawn and calculated PD is shown.
+* Further press **esc** to escape the window.
+
 ### Steps
 
 * The card on forehead is detected using HSV and Adaptive thresholding.
@@ -25,7 +33,7 @@ All the code is contained within **pupil_detect.ipynb**. Image examples can be s
 * A variable PARALLEL_PLANE_SCALING_FACTOR is multiplied to take into consideration the depth and camera calibration aspects.
 * PARALLEL_PLANE_SCALING_FACTOR is 1.27 in my case.
 
-### Eaxample
+### Example
 
 Normal Image             |  Pupil Line with PD |  Card Detected
 :-------------------------:|:-------------------------: |:-------------------------:
