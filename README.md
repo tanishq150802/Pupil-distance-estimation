@@ -1,4 +1,4 @@
-# Jain Software SLA Task 1 
+# Pupil distance estimation using card on forehead
 
 ### Measuring Pupil Distance (PD) from an image using card on forehead
 
